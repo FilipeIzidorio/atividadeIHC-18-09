@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Soma</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <input type="number" id="numero1" placeholder="Digite um número">
+            <input type="number" id="numero2" placeholder="Digite um número">
+        </div>
+
+        <div>
+            <select id="operacao">
+                <option value="somar">SOMAR</option>
+                <option value="subtrair">SUBTRAIR</option>
+                <option value="multiplicar">MULTIPLICAR</option>
+                <option value="dividir">DIVIDIR</option>
+            </select>
+        </div>
+
+        <div>
+            <button id="btnCalcular">CALCULAR</button>
+        </div>
+
+        <div class="result" >RESULTADO: <span id="resultado"> </span> </div>
+    </div>
+    
+    <script src="script.js"></script>
+    
+
+</body>
+</html>
